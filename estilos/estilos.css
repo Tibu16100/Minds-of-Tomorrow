@@ -1,0 +1,253 @@
+
+/*Estilos Generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+}
+
+.main-title{
+    width: 100%;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title{
+    font-size: 5vw;
+    font-weight: 400;
+    text-align: center;
+}
+
+.image img{
+    width: 600px;
+}
+
+.text-section p{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+
+/*Header*/
+
+
+header{
+    height: 100vh;
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+/*Sections*/
+
+.design-technology{
+    width: 100%;
+    display: flex;
+    margin: 40px 0;
+}
+
+
+/*Innovative-programs*/
+
+.innovative-programs{
+    width: 100%;
+    margin: 60px 0;
+    padding: 40px;
+    background-color: rgb(32, 221, 158);
+}
+
+.innovative-programs .gallery{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.innovative-programs .container .title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.innovative-programs .gallery .thumbnail{
+    width: 260px;
+}
+
+.innovative-programs .gallery .thumbnail p{
+    text-align: center;
+}
+
+.innovative-programs .gallery .thumbnail img{ 
+    border: 1px solid #000;
+    width: 100%;
+}
+
+/* Where-creative-happens */
+
+.where-creative-happens{
+    display: flex;
+    margin: 140px 0;
+}
+
+.where-creative-happens .text-section{
+    margin-left: 80px;
+}
+
+
+/* Posts */
+
+.posts{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.posts .image{
+    width: 25%;
+}
+
+.posts .image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Come-to-meet-us */
+
+.come-to-meet-us{
+    background-color: rgb(0, 195, 255);
+    padding: 60px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    background: #000;
+    color: white;
+    padding: 60px 0;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .media{
+    display: flex;
+}
+
+footer .container .media .social-media{
+    margin-right: 160px;
+}
+
+footer .container .media .social-media p,
+footer .container .media .links p{
+    margin: 10px 0;
+}
+
+footer .container .media .social-media p a,
+footer .container .media .links p a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Media */
+
+
+@media screen and (max-width: 1000px){
+    
+    /* Clases Generales*/
+
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .main-title{
+        font-size: 15vw;
+    }
+
+    .title{
+        font-size: 10vw;
+    }
+
+    .where-creative-happens .text-section{
+        margin-left: 0;
+    }
+
+    .text-section p{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .image{
+        text-align: center;
+    }
+
+    .image img{
+        width: 80vw;
+    }
+    
+    .gallery,
+    .posts{
+        flex-wrap: wrap;
+    }
+
+    .design-technology,
+    .where-creative-happens{
+        display: block;
+    }
+
+    /* Posts */
+
+    .posts .image{
+        width: 50%;
+    }
+    
+    /* Innovative Programs */
+
+    .innovative-programs .gallery .thumbnail{
+        width: 200px;
+        margin: auto;
+    }
+
+    /* Footer */
+
+    footer .container{
+        display: block;
+    }
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
